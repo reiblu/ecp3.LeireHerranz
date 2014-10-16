@@ -1,12 +1,18 @@
 package models.DAO.mem;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import models.DAO.Interfaces.GenericDAO;
 
 public class MemGenericDAO<T,ID> implements GenericDAO <T,ID>{
-
+    
+    private Map<T,Integer> conjuntos = new HashMap<T,Integer>();
+    
     @Override
     public void create(T crear) {
-        // TODO Auto-generated method stub
+        
+        
         
     }
 

@@ -5,15 +5,16 @@ import models.DAO.Interfaces.RoundDAO;
 import models.DAO.Interfaces.UserDAO;
 
 public class MemDAOFactory extends DAOFactory {
+    
 
     @Override
     public UserDAO getUserDAO() {
-        return null;
+        return new MemUserDAO();
     }
 
     @Override
     public RoundDAO gerRoundDAO() {
-        return null;
+        return new MemRoundDAO();
     }
 
 }
