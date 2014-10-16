@@ -6,4 +6,11 @@ import models.entity.Round;
 
 public class MemRoundDAO extends MemGenericDAO <Round,Integer> implements RoundDAO {
 
+    @Override
+    public Integer getid(Round entidad) {
+        return entidad.getid();
+    }
+
+   
+
 }

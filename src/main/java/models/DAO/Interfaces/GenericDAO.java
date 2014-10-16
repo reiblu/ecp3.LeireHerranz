@@ -6,7 +6,7 @@ public abstract interface GenericDAO<T, ID> {
 
     public abstract void create(T crear);
 
-    public abstract void read(ID leer);
+    public abstract T read(ID leer);
 
     public abstract void update(T actualizar);
 

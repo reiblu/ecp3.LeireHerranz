@@ -6,28 +6,26 @@ import java.util.Map;
 
 import models.DAO.Interfaces.GenericDAO;
 
-public class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
+public abstract class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
 
-    private Map<T, Integer> conjuntos = new HashMap<T, Integer>();
-
-    private static int indice;
+    private Map<T, ID> conjuntos = new HashMap<T, ID>();
 
     @Override
     public void create(T crear) {
-        conjuntos.put(crear, indice);
-        indice++;
+        if (!conjuntos.containsValue(crear)) {
+            conjuntos.put(crear, this.getid(crear));
+        }
 
     }
 
     @Override
-    public void read(ID leer) {
-        conjuntos.get(leer);
+    public T read(ID leer) {
+        return null;
 
     }
 
     @Override
     public void update(T actualizar) {
-        
 
     }
 
@@ -45,16 +43,16 @@ public class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
 
     @Override
     public Collection<Integer> findAll() {
-       Collection<Integer> coleccion= conjuntos.values();
+        Collection<Integer> coleccion = conjuntos.values();
         return coleccion;
 
     }
 
     @Override
     public void findAll(int index, int size) {
-        
-        
 
     }
+
+    protected abstract ID getid(T entidad);
 
 }
