@@ -1,5 +1,7 @@
 package models.DAO.Interfaces;
 
+import java.util.Collection;
+
 public abstract interface GenericDAO<T, ID> {
 
     public abstract void create(T crear);
@@ -12,7 +14,7 @@ public abstract interface GenericDAO<T, ID> {
 
     public abstract void deleteByID(ID borrarID);
 
-    public abstract void findAll();
+    public abstract Collection<Integer> findAll();
 
     public abstract void findAll(int index, int size);
 

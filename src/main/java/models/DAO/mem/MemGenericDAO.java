@@ -1,5 +1,6 @@
 package models.DAO.mem;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -43,13 +44,15 @@ public class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
     }
 
     @Override
-    public void findAll() {
-        
+    public Collection<Integer> findAll() {
+       Collection<Integer> coleccion= conjuntos.values();
+        return coleccion;
 
     }
 
     @Override
     public void findAll(int index, int size) {
+        
         
 
     }
