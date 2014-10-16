@@ -1,5 +1,7 @@
 package controllersProxy.mobile;
 
-public class ControllersProxyCreateRound {
+import controllers.ControllerCreateRound;
+
+public class ControllersProxyCreateRound implements ControllerCreateRound {
 
 }

@@ -1,5 +1,7 @@
 package controllersProxy.mobile;
 
-public class ControllersProxyLogout {
+import controllers.ControllerLogout;
+
+public class ControllersProxyLogout implements ControllerLogout {
 
 }

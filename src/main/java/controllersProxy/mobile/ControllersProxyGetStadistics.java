@@ -1,5 +1,7 @@
 package controllersProxy.mobile;
 
-public class ControllersProxyGetStadistics {
+import controllers.ControllerGetStadistics;
+
+public class ControllersProxyGetStadistics implements ControllerGetStadistics{
 
 }
