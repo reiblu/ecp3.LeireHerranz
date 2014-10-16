@@ -44,13 +44,13 @@ public class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
 
     @Override
     public void findAll() {
-        // TODO Auto-generated method stub
+        
 
     }
 
     @Override
     public void findAll(int index, int size) {
-        // TODO Auto-generated method stub
+        
 
     }
 
