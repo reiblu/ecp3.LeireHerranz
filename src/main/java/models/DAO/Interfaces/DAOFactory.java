@@ -1,5 +1,9 @@
 package models.DAO.Interfaces;
 
-public class DAOFactory {
+public abstract class DAOFactory {
+    
+    public abstract UserDAO getUserDAO();
+    
+    public abstract RoundDAO gerRoundDAO();
 
 }

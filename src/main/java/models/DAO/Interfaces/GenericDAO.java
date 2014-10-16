@@ -1,5 +1,5 @@
 package models.DAO.Interfaces;
 
-public interface GenericDAO {
+public interface GenericDAO <T,ID> {
 
 }
