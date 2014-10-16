@@ -6,6 +6,9 @@ import models.DAO.Interfaces.UserDAO;
 
 public class MemDAOFactory extends DAOFactory {
     
+    public MemDAOFactory(){
+        DAOFactory.setIntancia(this);
+    }
 
     @Override
     public UserDAO getUserDAO() {

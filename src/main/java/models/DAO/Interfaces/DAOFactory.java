@@ -16,7 +16,7 @@ public abstract class DAOFactory {
         return DAOFactory.factoria;
     }
     
-    private static DAOFactory setIntancia(DAOFactory factoria) {
+    public static DAOFactory setIntancia(DAOFactory factoria) {
         return DAOFactory.factoria= factoria;
     }
 
