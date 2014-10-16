@@ -1,5 +1,7 @@
 package models.DAO.Interfaces;
 
-public interface UserDAO {
+import models.entity.User;
+
+public interface UserDAO extends GenericDAO<User,Integer> {
 
 }

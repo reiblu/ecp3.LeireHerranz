@@ -9,15 +9,11 @@ public class MemDAOFactory extends DAOFactory {
     @Override
     public UserDAO getUserDAO() {
         return null;
-        // TODO Auto-generated method stub
-        
     }
 
     @Override
     public RoundDAO gerRoundDAO() {
         return null;
-        // TODO Auto-generated method stub
-        
     }
 
 }
