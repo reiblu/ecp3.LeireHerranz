@@ -1,4 +1,4 @@
-package controllers.enterprise;
+package enterprise;
 
 public class ControllersEnterpriseMoveCard {
 
