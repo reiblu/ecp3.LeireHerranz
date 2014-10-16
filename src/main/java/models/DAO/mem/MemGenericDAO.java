@@ -19,8 +19,8 @@ public abstract class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
     }
 
     @Override
-    public T read(ID leer) {
-        return null;
+    public ID read(ID leer) {
+        return conjuntos.get(leer);
 
     }
 
@@ -42,9 +42,8 @@ public abstract class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
     }
 
     @Override
-    public Collection<Integer> findAll() {
-        Collection<Integer> coleccion = conjuntos.values();
-        return coleccion;
+    public Collection<ID> findAll() {
+        return conjuntos.values();
 
     }
 
