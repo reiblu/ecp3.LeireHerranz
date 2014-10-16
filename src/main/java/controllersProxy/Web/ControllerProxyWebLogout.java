@@ -1,5 +1,7 @@
 package controllersProxy.Web;
 
-public class ControllerProxyWebLogout {
+import controllers.ControllerLogout;
+
+public class ControllerProxyWebLogout implements ControllerLogout {
 
 }

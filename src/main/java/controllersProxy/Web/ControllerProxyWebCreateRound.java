@@ -1,5 +1,7 @@
 package controllersProxy.Web;
 
-public class ControllerProxyWebCreateRound {
+import controllers.ControllerCreateRound;
+
+public class ControllerProxyWebCreateRound implements ControllerCreateRound {
 
 }

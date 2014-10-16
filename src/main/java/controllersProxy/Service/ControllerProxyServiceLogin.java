@@ -1,5 +1,7 @@
 package controllersProxy.Service;
 
-public class ControllerProxyServiceLogin {
+import controllers.ControllerLogin;
+
+public class ControllerProxyServiceLogin implements ControllerLogin{
 
 }

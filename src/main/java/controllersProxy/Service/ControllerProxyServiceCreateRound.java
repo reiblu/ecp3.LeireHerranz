@@ -1,5 +1,7 @@
 package controllersProxy.Service;
 
-public class ControllerProxyServiceCreateRound {
+import controllers.ControllerCreateRound;
+
+public class ControllerProxyServiceCreateRound implements ControllerCreateRound {
 
 }

@@ -1,5 +1,7 @@
 package enterprise;
 
-public class ControllersEnterpriseDeleteRound {
+import controllers.ControllerDeleteRound;
+
+public class ControllersEnterpriseDeleteRound implements ControllerDeleteRound {
 
 }

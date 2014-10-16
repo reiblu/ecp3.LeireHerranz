@@ -1,5 +1,7 @@
 package enterprise;
 
-public class ControllersEnterpriseCreateRound {
+import controllers.ControllerCreateRound;
+
+public class ControllersEnterpriseCreateRound implements ControllerCreateRound {
 
 }

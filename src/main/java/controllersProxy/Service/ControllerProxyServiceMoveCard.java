@@ -1,5 +1,7 @@
 package controllersProxy.Service;
 
-public class ControllerProxyServiceMoveCard {
+import controllers.ControllerMoveCard;
+
+public class ControllerProxyServiceMoveCard implements ControllerMoveCard {
 
 }

@@ -1,5 +1,7 @@
 package enterprise;
 
-public class ControllersEnterpriseGetStadistics {
+import controllers.ControllerGetStadistics;
+
+public class ControllersEnterpriseGetStadistics implements ControllerGetStadistics {
 
 }

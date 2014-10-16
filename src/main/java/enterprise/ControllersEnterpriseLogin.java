@@ -1,5 +1,7 @@
 package enterprise;
 
-public class ControllersEnterpriseLogin {
+import controllers.ControllerLogin;
+
+public class ControllersEnterpriseLogin implements ControllerLogin {
 
 }

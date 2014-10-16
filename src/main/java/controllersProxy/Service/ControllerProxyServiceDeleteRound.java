@@ -1,5 +1,7 @@
 package controllersProxy.Service;
 
-public class ControllerProxyServiceDeleteRound {
+import controllers.ControllerDeleteRound;
+
+public class ControllerProxyServiceDeleteRound implements ControllerDeleteRound {
 
 }
