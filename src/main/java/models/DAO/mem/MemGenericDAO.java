@@ -26,12 +26,12 @@ public abstract class MemGenericDAO<T, ID> implements GenericDAO<T, ID> {
 
     @Override
     public void update(T actualizar) {
-
+        conjuntos.put(actualizar, this.getid(actualizar));
     }
 
     @Override
     public void delete(T borrar) {
-        conjuntos.remove(borrar);
+        conjuntos.remove(this.getid(borrar));
 
     }
 
