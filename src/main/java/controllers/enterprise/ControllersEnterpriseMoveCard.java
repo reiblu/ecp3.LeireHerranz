@@ -1,4 +1,4 @@
-package enterprise;
+package controllers.enterprise;
 
 import controllers.ControllerMoveCard;
 
